@@ -1,0 +1,87 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    overflow-x: hidden;
+}
+.btn{
+    background-color:#fe346e;
+    color: #fff;
+    transition: 0.3s ease-in-out;
+}
+.btn:hover{
+    color: #fff;
+    background-color: #b21f66;
+}
+
+/** Navegation Menu **/
+.navbar-brand{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+/** Img Header **/
+.img-header{
+    background-image: url(../assets/img/img-6.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color:rgba(0,0,0,0.2);
+    background-blend-mode: soft-light;
+}
+.img-header .welcome .heading-1{
+    font-size: 50px;
+    font-weight: 400;
+}
+.img-header .welcome{
+    font-size: 25px;
+}
+
+/** About Me **/
+.about-me{
+    padding-top: 100px;
+}
+.about-me .card-about{
+    border:2px solid #fe346e;
+    border-radius: 10px;
+    padding:30px;
+    margin:20px 0px;
+}
+.about-me .card-about p{
+    line-height: 40px;
+    font-size: 17px;
+}
+
+/** Card **/
+.card{
+    margin:20px 0px;
+}
+
+/** Footer **/
+.contact-section{
+    position: relative;
+    background-image: url(../assets/img/footer.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.contact-form {
+    border-radius: 10px;
+}
+.social a{
+    font-size: 40px;
+    margin:0px 30px;
+}
+.social a .fa-facebook-f{color:#0071bc;}
+.social a .fa-instagram{color: #fe346e;}
+.social a .fa-whatsapp{color: #25d366;}
+
+.footer{
+    bottom: 0;
+    width: 100%;
+    margin-top: 50px;
+}
+.footer p{
+    font-size: 19px;
+}
